@@ -36,11 +36,11 @@
     <MicrosoftAspNetCoreServerKestrelPackageVersion>3.0.0-alpha1-10584</MicrosoftAspNetCoreServerKestrelPackageVersion>
     <MicrosoftAspNetCoreStaticFilesPackageVersion>3.0.0-alpha1-10584</MicrosoftAspNetCoreStaticFilesPackageVersion>
     <MicrosoftAspNetCoreTestingPackageVersion>3.0.0-alpha1-10584</MicrosoftAspNetCoreTestingPackageVersion>
-    <MicrosoftBuildPackageVersion>15.6.82</MicrosoftBuildPackageVersion>
-    <MicrosoftBuildRuntimePackageVersion>15.6.82</MicrosoftBuildRuntimePackageVersion>
-    <MicrosoftBuildUtilitiesCorePackageVersion>15.6.82</MicrosoftBuildUtilitiesCorePackageVersion>
-    <MicrosoftCodeAnalysisCSharpPackageVersion>2.8.0</MicrosoftCodeAnalysisCSharpPackageVersion>
-    <MicrosoftCodeAnalysisCSharpWorkspacesPackageVersion>2.8.0</MicrosoftCodeAnalysisCSharpWorkspacesPackageVersion>
+    <MicrosoftBuildPackageVersion>15.8.166</MicrosoftBuildPackageVersion>
+    <MicrosoftBuildRuntimePackageVersion>15.8.166</MicrosoftBuildRuntimePackageVersion>
+    <MicrosoftBuildUtilitiesCorePackageVersion>15.8.166</MicrosoftBuildUtilitiesCorePackageVersion>
+    <MicrosoftCodeAnalysisCSharpPackageVersion>3.0.0-beta4-final</MicrosoftCodeAnalysisCSharpPackageVersion>
+    <MicrosoftCodeAnalysisCSharpWorkspacesPackageVersion>3.0.0-beta4-final</MicrosoftCodeAnalysisCSharpWorkspacesPackageVersion>
     <MicrosoftDotNetProjectModelPackageVersion>1.0.0-rc3-003121</MicrosoftDotNetProjectModelPackageVersion>
     <MicrosoftEntityFrameworkCoreDesignPackageVersion>3.0.0-alpha1-10584</MicrosoftEntityFrameworkCoreDesignPackageVersion>
     <MicrosoftEntityFrameworkCorePackageVersion>3.0.0-alpha1-10584</MicrosoftEntityFrameworkCorePackageVersion>
@@ -51,7 +51,7 @@
     <MicrosoftExtensionsConfigurationJsonPackageVersion>3.0.0-alpha1-10584</MicrosoftExtensionsConfigurationJsonPackageVersion>
     <MicrosoftExtensionsConfigurationUserSecretsPackageVersion>3.0.0-alpha1-10584</MicrosoftExtensionsConfigurationUserSecretsPackageVersion>
     <MicrosoftExtensionsDependencyInjectionPackageVersion>3.0.0-alpha1-10584</MicrosoftExtensionsDependencyInjectionPackageVersion>
-    <MicrosoftExtensionsDependencyModelPackageVersion>3.0.0-preview1-26907-05</MicrosoftExtensionsDependencyModelPackageVersion>
+    <MicrosoftExtensionsDependencyModelPackageVersion>1.0.3</MicrosoftExtensionsDependencyModelPackageVersion>
     <MicrosoftExtensionsFileProvidersEmbeddedPackageVersion>3.0.0-alpha1-10584</MicrosoftExtensionsFileProvidersEmbeddedPackageVersion>
     <MicrosoftExtensionsFileProvidersPhysicalPackageVersion>3.0.0-alpha1-10584</MicrosoftExtensionsFileProvidersPhysicalPackageVersion>
     <MicrosoftExtensionsLoggingConsolePackageVersion>3.0.0-alpha1-10584</MicrosoftExtensionsLoggingConsolePackageVersion>
