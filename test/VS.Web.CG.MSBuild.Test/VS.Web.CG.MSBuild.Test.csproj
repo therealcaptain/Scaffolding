@@ -21,6 +21,7 @@
     <PackageReference Include="Microsoft.Build.Runtime" Version="$(MicrosoftBuildRuntimePackageVersion)" />
     <PackageReference Include="Microsoft.Extensions.FileProviders.Physical" Version="$(MicrosoftExtensionsFileProvidersPhysicalPackageVersion)" />
     <PackageReference Include="NuGet.Frameworks" Version="$(NuGetFrameworksPackageVersion)" />
+    <PackageReference Include="Microsoft.Extensions.DependencyModel" Version="1.0.3" />
   </ItemGroup>
 
 </Project>

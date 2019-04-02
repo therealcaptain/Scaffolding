@@ -21,6 +21,7 @@
     <PackageReference Include="Microsoft.Build.Runtime" Version="$(MicrosoftBuildRuntimePackageVersion)" />
     <PackageReference Include="Microsoft.Extensions.FileProviders.Embedded" Version="$(MicrosoftExtensionsFileProvidersEmbeddedPackageVersion)" />
     <PackageReference Include="Microsoft.Extensions.FileProviders.Physical" Version="$(MicrosoftExtensionsFileProvidersPhysicalPackageVersion)" />
+    <PackageReference Include="Microsoft.Extensions.DependencyModel" Version="1.0.3" />
     <ProjectReference Include="..\..\src\VS.Web.CG.Mvc\VS.Web.CG.Mvc.csproj" />
     <ProjectReference Include="..\..\src\VS.Web.CG.Msbuild\VS.Web.CG.Msbuild.csproj" ReferenceOutputAssembly="false" CopyToOutputDirectory="Always" OutputItemType="Content" />
   </ItemGroup>
