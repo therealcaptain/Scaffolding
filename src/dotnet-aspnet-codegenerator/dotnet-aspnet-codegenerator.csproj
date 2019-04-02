@@ -46,11 +46,9 @@
     <None Include="..\VS.Web.CG.Msbuild\Target\buildMultiTargeting\Microsoft.VisualStudio.Web.CodeGeneration.Tools.targets"
           CopyToPublishDirectory="Always"
           Link="buildMultiTargeting\microsoft.visualstudio.web.codegeneration.tools.targets" />
-    <None Include="..\VS.Web.CG.Msbuild\bin\$(Configuration)\netstandard2.0\Microsoft.VisualStudio.Web.CodeGeneration.Msbuild.dll"
-          CopyToPublishDirectory="Always"
+    <None Include="$(ArtifactsBinDir)VS.Web.CG.Msbuild\bin\$(Configuration)\netstandard2.0\Microsoft.VisualStudio.Web.CodeGeneration.Msbuild.dll"
           Link="toolassets\netcoreapp3.0\Microsoft.VisualStudio.Web.CodeGeneration.Msbuild.dll" />
-    <None Include="..\VS.Web.CG.Msbuild\bin\$(Configuration)\net461\Microsoft.VisualStudio.Web.CodeGeneration.Msbuild.dll"
-          CopyToPublishDirectory="Always"
+    <None Include="$(ArtifactsBinDir)VS.Web.CG.Msbuild\bin\$(Configuration)\net461\Microsoft.VisualStudio.Web.CodeGeneration.Msbuild.dll"
           Link="toolassets\net461\Microsoft.VisualStudio.Web.CodeGeneration.Msbuild.dll" />
   </ItemGroup>
 
