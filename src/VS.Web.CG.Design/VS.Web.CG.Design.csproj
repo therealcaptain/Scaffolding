@@ -1,4 +1,4 @@
-﻿<Project Sdk="Internal.AspNetCore.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
   <!--
    NOTE: Do not add package/ project references to this file.
    Edit the Shared.proj file to add additional package/ project references.
@@ -59,29 +59,29 @@
         copyright=$(Copyright);
         AssemblyName=$(AssemblyName);
 
-        OutputBinary=$(OutputPath)netcoreapp3.0\$(AssemblyName).dll;
-        OutputDocumentation=$(OutputPath)netcoreapp3.0\$(AssemblyName).xml;
-        OutputSymbol=$(OutputPath)netcoreapp3.0\$(AssemblyName).pdb;
+        OutputBinary=$(ArtifactsBinDir)VS.Web.CG.Design\$(Configuration)\netcoreapp3.0\$(AssemblyName).dll;
+        OutputDocumentation=$(ArtifactsBinDir)VS.Web.CG.Design\$(Configuration)\netcoreapp3.0\$(AssemblyName).xml;
+        OutputSymbol=$(ArtifactsBinDir)VS.Web.CG.Design\$(Configuration)\netcoreapp3.0\$(AssemblyName).pdb;
 
-        OutputAnyExe=$(AnyCpuProjectDirectory)bin\$(Configuration)\net461\$(AssemblyName).exe;
-        OutputAnyDocumentation=$(AnyCpuProjectDirectory)bin\$(Configuration)\net461\$(AssemblyName).xml;
-        OutputAnySymbol=$(AnyCpuProjectDirectory)bin\$(Configuration)\net461\$(AssemblyName).pdb;
+        OutputAnyExe=$(ArtifactsBinDir)VS.Web.CG.Design-anycpu\$(Configuration)\net461\$(AssemblyName).exe;
+        OutputAnyDocumentation=$(ArtifactsBinDir)VS.Web.CG.Design-anycpu\$(Configuration)\net461\$(AssemblyName).xml;
+        OutputAnySymbol=$(ArtifactsBinDir)VS.Web.CG.Design-anycpu\$(Configuration)\net461\$(AssemblyName).pdb;
 
-        OutputX64Exe=$(OutputPath)net461\win7-x64\$(AssemblyName).exe;
-        OutputX64Documentation=$(OutputPath)net461\win7-x64\$(AssemblyName).xml;
-        OutputX64Symbol=$(OutputPath)net461\win7-x64\$(AssemblyName).pdb;
+        OutputX64Exe=$(ArtifactsBinDir)VS.Web.CG.Design\$(Configuration)net461\win7-x64\$(AssemblyName).exe;
+        OutputX64Documentation=$(ArtifactsBinDir)VS.Web.CG.Design\$(Configuration)\net461\win7-x64\$(AssemblyName).xml;
+        OutputX64Symbol=$(ArtifactsBinDir)VS.Web.CG.Design\$(Configuration)\net461\win7-x64\$(AssemblyName).pdb;
 
-        OutputX86Exe=$(X86ProjectDirectory)bin\$(Configuration)\net461\win7-x86\$(AssemblyName).exe;
-        OutputX86Documentation=$(X86ProjectDirectory)bin\$(Configuration)\net461\win7-x86\$(AssemblyName).xml;
-        OutputX86Symbol=$(X86ProjectDirectory)bin\$(Configuration)\net461\win7-x86\$(AssemblyName).pdb;
+        OutputX86Exe=$(ArtifactsBinDir)VS.Web.CG.Design-x86\$(Configuration)\net461\win7-x86\$(AssemblyName).exe;
+        OutputX86Documentation=$(ArtifactsBinDir)VS.Web.CG.Design-x86\$(Configuration)\net461\win7-x86\$(AssemblyName).xml;
+        OutputX86Symbol=$(ArtifactsBinDir)VS.Web.CG.Design-x86\$(Configuration)\net461\win7-x86\$(AssemblyName).pdb;
 
-        OutputARMExe=$(ARMProjectDirectory)bin\$(Configuration)\net461\win-arm\$(AssemblyName).exe;
-        OutputARMDocumentation=$(ARMProjectDirectory)bin\$(Configuration)\net461\win-arm\$(AssemblyName).xml;
-        OutputARMSymbol=$(ARMProjectDirectory)bin\$(Configuration)\net461\win-arm\$(AssemblyName).pdb;
+        OutputARMExe=$(ArtifactsBinDir)VS.Web.CG.Design-arm\$(Configuration)\net461\win-arm\$(AssemblyName).exe;
+        OutputARMDocumentation=$(ArtifactsBinDir)VS.Web.CG.Design-arm\$(Configuration)\net461\win-arm\$(AssemblyName).xml;
+        OutputARMSymbol=$(ArtifactsBinDir)VS.Web.CG.Design-arm\$(Configuration)\net461\win-arm\$(AssemblyName).pdb;
 
-        OutputARM64Exe=$(ARM64ProjectDirectory)bin\$(Configuration)\net461\win-arm64\$(AssemblyName).exe;
-        OutputARM64Documentation=$(ARM64ProjectDirectory)bin\$(Configuration)\net461\win-arm64\$(AssemblyName).xml;
-        OutputARM64Symbol=$(ARM64ProjectDirectory)bin\$(Configuration)\net461\win-arm64\$(AssemblyName).pdb;
+        OutputARM64Exe=$(ArtifactsBinDir)VS.Web.CG.Design-arm64\$(Configuration)\net461\win-arm64\$(AssemblyName).exe;
+        OutputARM64Documentation=$(ArtifactsBinDir)VS.Web.CG.Design-arm64\$(Configuration)\net461\win-arm64\$(AssemblyName).xml;
+        OutputARM64Symbol=$(ArtifactsBinDir)VS.Web.CG.Design-arm64\$(Configuration)\net461\win-arm64\$(AssemblyName).pdb;
       </NuspecProperties>
     </PropertyGroup>
   </Target>

@@ -5,5 +5,7 @@
   <PropertyGroup>
     <IsPackable>true</IsPackable>
     <DebugType>portable</DebugType>
+    <PackageIconUrl Condition="'$(PackageIconUrl)' == ''">https://go.microsoft.com/fwlink/?LinkID=288859</PackageIconUrl>
+    <PackageProjectUrl Condition="'$(PackageProjectUrl)' == ''">https://asp.net</PackageProjectUrl>
   </PropertyGroup>
 </Project>
