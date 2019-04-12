@@ -26,10 +26,10 @@
         $(RestoreSources);
         $(MSBuildThisFileDirectory)..\artifacts\build;
       </RestoreSources>
+<!--        MicrosoftNETCoreApp30PackageVersion=$(MicrosoftNETCoreApp30PackageVersion);	-->
       <TestProjectProperties>
         RestoreSources=$([MSBuild]::Escape($(RestoreSources.Trim())));
         TargetFramework=$(TargetFramework);
-        MicrosoftNETCoreApp30PackageVersion=$(MicrosoftNETCoreApp30PackageVersion);
         MicrosoftApplicationInsightsAspNetCorePackageVersion=$(MicrosoftApplicationInsightsAspNetCorePackageVersion);
         MicrosoftAspNetCoreAuthenticationCookiesPackageVersion=$(MicrosoftAspNetCoreAuthenticationCookiesPackageVersion);
         MicrosoftAspNetCoreDiagnosticsEntityFrameworkCorePackageVersion=$(MicrosoftAspNetCoreDiagnosticsEntityFrameworkCorePackageVersion);

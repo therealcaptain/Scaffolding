@@ -1,4 +1,4 @@
-﻿<Project Sdk="Internal.AspNetCore.Sdk">
+﻿<Project Sdk="Microsoft.Net.Sdk">
   <!--
    NOTE: Do not add package/ project references to this file.
    Edit the Shared.proj file to add additional package/ project references.
@@ -27,7 +27,7 @@
 
   <ItemGroup>
     <!-- Set to PrivateAssets=All so the package does not appear in the generated nuspec. This prevents issues such as https://github.com/aspnet/Scaffolding/issues/645. -->
-    <PackageReference Update="Microsoft.NETCore.App" PrivateAssets="All" />
+<!--    <PackageReference Update="Microsoft.NETCore.App" PrivateAssets="All" />	-->
   </ItemGroup>
 
   <ItemGroup Condition="'$(TargetFramework)' == ''">

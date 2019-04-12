@@ -19,13 +19,13 @@
     <MicrosoftApplicationInsightsAspNetCorePackageVersion>2.6.1</MicrosoftApplicationInsightsAspNetCorePackageVersion>
 
     <!-- Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore -->
-    <MicrosoftAspNetCoreDiagnosticsEntityFrameworkCorePackageVersion>3.0.0-preview3-19153-02</MicrosoftAspNetCoreDiagnosticsEntityFrameworkCorePackageVersion>
+    <MicrosoftAspNetCoreDiagnosticsEntityFrameworkCorePackageVersion>3.0.0-preview4-19210-17</MicrosoftAspNetCoreDiagnosticsEntityFrameworkCorePackageVersion>
 
     <!-- Microsoft.AspNetCore.Identity.EntityFrameworkCore -->
-    <MicrosoftAspNetCoreIdentityEntityFrameworkCorePackageVersion>3.0.0-preview3-19153-02</MicrosoftAspNetCoreIdentityEntityFrameworkCorePackageVersion>
+    <MicrosoftAspNetCoreIdentityEntityFrameworkCorePackageVersion>3.0.0-preview4-19210-17</MicrosoftAspNetCoreIdentityEntityFrameworkCorePackageVersion>
 
     <!-- Microsoft.AspNetCore.Identity.UI -->
-    <MicrosoftAspNetCoreIdentityUIPackageVersion>3.0.0-preview3-19153-02</MicrosoftAspNetCoreIdentityUIPackageVersion>
+    <MicrosoftAspNetCoreIdentityUIPackageVersion>3.0.0-preview4-19210-17</MicrosoftAspNetCoreIdentityUIPackageVersion>
 
     <!-- Microsoft.Extensions.Identity.Stores -->
     <MicrosoftExtensionsIdentityStoresPackageVersion>3.0.0-preview3-19153-02</MicrosoftExtensionsIdentityStoresPackageVersion>
@@ -57,13 +57,13 @@
     <MicrosoftExtensionsCommandLineUtilsSourcesPackageVersion>3.0.0-preview3.19153.1</MicrosoftExtensionsCommandLineUtilsSourcesPackageVersion>
 
     <!-- Microsoft.EntityFrameworkCore.Design -->
-    <MicrosoftEntityFrameworkCoreDesignPackageVersion>3.0.0-preview3.19153.1</MicrosoftEntityFrameworkCoreDesignPackageVersion>
+    <MicrosoftEntityFrameworkCoreDesignPackageVersion>3.0.0-preview4.19210.5</MicrosoftEntityFrameworkCoreDesignPackageVersion>
 
     <!-- Microsoft.EntityFrameworkCore -->
-    <MicrosoftEntityFrameworkCorePackageVersion>3.0.0-preview3.19153.1</MicrosoftEntityFrameworkCorePackageVersion>
+    <MicrosoftEntityFrameworkCorePackageVersion>3.0.0-preview4.19210.5</MicrosoftEntityFrameworkCorePackageVersion>
 
     <!-- Microsoft.EntityFrameworkCore.SqlServer -->
-    <MicrosoftEntityFrameworkCoreSqlServerPackageVersion>3.0.0-preview3.19153.1</MicrosoftEntityFrameworkCoreSqlServerPackageVersion>
+    <MicrosoftEntityFrameworkCoreSqlServerPackageVersion>3.0.0-preview4.19210.5</MicrosoftEntityFrameworkCoreSqlServerPackageVersion>
 
     <!-- Microsoft.Extensions.Configuration.Abstractions -->
     <MicrosoftExtensionsConfigurationAbstractionsPackageVersion>3.0.0-preview3.19153.1</MicrosoftExtensionsConfigurationAbstractionsPackageVersion>
@@ -99,7 +99,7 @@
     <MicrosoftExtensionsOptionsConfigurationExtensionsPackageVersion>3.0.0-preview3.19153.1</MicrosoftExtensionsOptionsConfigurationExtensionsPackageVersion>
 
     <!-- TFM -->
-    <MicrosoftNETCoreApp30PackageVersion>3.0.0-preview1-26907-05</MicrosoftNETCoreApp30PackageVersion>
+<!--    <MicrosoftNETCoreApp30PackageVersion>3.0.0-preview4-27610-06</MicrosoftNETCoreApp30PackageVersion>	-->
 
     <!-- Microsoft.NET.Sdk.Razor -->
     <MicrosoftNETSdkRazorPackageVersion>3.0.0-alpha1-10584</MicrosoftNETSdkRazorPackageVersion>

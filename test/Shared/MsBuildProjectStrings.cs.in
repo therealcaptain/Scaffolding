@@ -20,7 +20,7 @@ namespace Microsoft.VisualStudio.Web.CodeGeneration
     <TargetFramework>${TargetFramework}</TargetFramework>
     <RootNamespace>Microsoft.TestProject</RootNamespace>
     <ProjectName>TestProject</ProjectName>
-    <RuntimeFrameworkVersion Condition=""'$(TargetFramework)'=='netcoreapp3.0'"">${MicrosoftNETCoreApp30PackageVersion}</RuntimeFrameworkVersion>
+<!--    <RuntimeFrameworkVersion Condition=""'$(TargetFramework)'=='netcoreapp3.0'"">${MicrosoftNETCoreApp30PackageVersion}</RuntimeFrameworkVersion>	-->
     <!-- aspnet/BuildTools#662 Don't police what version of NetCoreApp we use -->
     <NETCoreAppMaximumVersion>99.9</NETCoreAppMaximumVersion>
   </PropertyGroup>
@@ -63,7 +63,7 @@ public const string RootProjectTxtWithoutEF = @"
     <TargetFramework>${TargetFramework}</TargetFramework>
     <RootNamespace>Microsoft.TestProject</RootNamespace>
     <ProjectName>TestProject</ProjectName>
-    <RuntimeFrameworkVersion Condition=""'$(TargetFramework)'=='netcoreapp3.0'"">${MicrosoftNETCoreApp30PackageVersion}</RuntimeFrameworkVersion>
+<!--    <RuntimeFrameworkVersion Condition=""'$(TargetFramework)'=='netcoreapp3.0'"">${MicrosoftNETCoreApp30PackageVersion}</RuntimeFrameworkVersion>	-->
     <!-- aspnet/BuildTools#662 Don't police what version of NetCoreApp we use -->
     <NETCoreAppMaximumVersion>99.9</NETCoreAppMaximumVersion>
   </PropertyGroup>
@@ -347,7 +347,7 @@ namespace Library1.Models
     <RootNamespace>Microsoft.TestProject</RootNamespace>
     <ProjectName>TestProject</ProjectName>
     <NoWarn>NU1605</NoWarn>
-    <RuntimeFrameworkVersion Condition=""'$(TargetFramework)'=='netcoreapp3.0'"">${MicrosoftNETCoreApp30PackageVersion}</RuntimeFrameworkVersion>
+<!--    <RuntimeFrameworkVersion Condition=""'$(TargetFramework)'=='netcoreapp3.0'"">${MicrosoftNETCoreApp30PackageVersion}</RuntimeFrameworkVersion>	-->
     <!-- aspnet/BuildTools#662 Don't police what version of NetCoreApp we use -->
     <NETCoreAppMaximumVersion>99.9</NETCoreAppMaximumVersion>
   </PropertyGroup>
@@ -517,7 +517,7 @@ namespace DAL
     <RootNamespace>Microsoft.TestProject</RootNamespace>
     <ProjectName>TestProject</ProjectName>
     <NoWarn>NU1605</NoWarn>
-    <RuntimeFrameworkVersion Condition=""'$(TargetFramework)'=='netcoreapp3.0'"">${MicrosoftNETCoreApp30PackageVersion}</RuntimeFrameworkVersion>
+<!--    <RuntimeFrameworkVersion Condition=""'$(TargetFramework)'=='netcoreapp3.0'"">${MicrosoftNETCoreApp30PackageVersion}</RuntimeFrameworkVersion>	-->
     <!-- aspnet/BuildTools#662 Don't police what version of NetCoreApp we use -->
     <NETCoreAppMaximumVersion>99.9</NETCoreAppMaximumVersion>
   </PropertyGroup>
@@ -733,7 +733,7 @@ namespace Test
     <RootNamespace>Microsoft.Test</RootNamespace>
     <ProjectName>Test</ProjectName>
     <NoWarn>NU1605</NoWarn>
-    <RuntimeFrameworkVersion Condition=""'$(TargetFramework)'=='netcoreapp3.0'"">${MicrosoftNETCoreApp30PackageVersion}</RuntimeFrameworkVersion>
+<!--    <RuntimeFrameworkVersion Condition=""'$(TargetFramework)'=='netcoreapp3.0'"">${MicrosoftNETCoreApp30PackageVersion}</RuntimeFrameworkVersion>	-->
     <!-- aspnet/BuildTools#662 Don't police what version of NetCoreApp we use -->
     <NETCoreAppMaximumVersion>99.9</NETCoreAppMaximumVersion>
   </PropertyGroup>
